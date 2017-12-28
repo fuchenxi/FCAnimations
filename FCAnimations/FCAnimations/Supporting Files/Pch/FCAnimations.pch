@@ -1,0 +1,20 @@
+//
+//  FCAnimations.pch
+//  FCAnimations
+//
+//  Created by fcx on 2017/12/20.
+//  Copyright © 2017年 https://github.com/fuchenxi. All rights reserved.
+//
+
+#ifndef FCAnimations_pch
+#define FCAnimations_pch
+
+//#ifndef __OBJC__
+
+#import "SimpleNSLog.h"
+#import "Macro.h"
+#import "Component.h"
+
+//#endif
+
+#endif /* FCAnimations_pch */
