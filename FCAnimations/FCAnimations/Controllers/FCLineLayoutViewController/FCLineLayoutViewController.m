@@ -25,10 +25,14 @@
 - (void)viewDidLoad {
     
     [super viewDidLoad];
+    
+    static NSInteger layoutType = 0;
+    layoutType                 += 1;
+    
     self.collectionView = ({
         
         UICollectionView *collectionView = [[UICollectionView alloc] initWithFrame:CGRectZero
-                                                              collectionViewLayout:arc4random() % 2 == 1 ? [FCLineLayout new] : [FCComplexLineLayout new]];
+                                                              collectionViewLayout:layoutType % 2 == 1 ? [FCLineLayout new] : [FCComplexLineLayout new]];
         collectionView.backgroundColor = [UIColor lightGrayColor];
         [collectionView registerClass:[UICollectionViewCell class] forCellWithReuseIdentifier:@"UICollectionViewCell"];
         collectionView.delegate = self;
