@@ -9,6 +9,7 @@
 #ifndef FCControllersHeader_h
 #define FCControllersHeader_h
 
+#import "FCInfiniteLoopViewController.h"
 #import "FCLineLayoutViewController.h"
 
 #endif /* FCControllersHeader_h */

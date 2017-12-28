@@ -17,7 +17,7 @@
 - (void)setupSubViews {
     
     // Title label.
-    UILabel *titleLabel      = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, Width, 64.f)];
+    UILabel *titleLabel      = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, Width, 44.f)];
     titleLabel.font          = [UIFont HeitiSCWithFontSize:20.f];
     titleLabel.textAlignment = NSTextAlignmentCenter;
     titleLabel.textColor     = [UIColor colorWithRed:0.329  green:0.329  blue:0.329 alpha:1];
@@ -31,7 +31,7 @@
     [self.titleView addSubview:line];
     
     // Back button.
-    UIButton *backButton = [[UIButton alloc] initWithFrame:CGRectMake(0, 0, 100, 64)];
+    UIButton *backButton = [[UIButton alloc] initWithFrame:CGRectMake(0, 0, 100, 44.f)];
     backButton.center    = CGPointMake(20, titleLabel.centerY);
     [backButton setImage:[UIImage imageNamed:@"backIcon"]             forState:UIControlStateNormal];
     [backButton setImage:[UIImage imageNamed:@"backIcon_highlighted"] forState:UIControlStateHighlighted];

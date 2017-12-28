@@ -33,7 +33,7 @@
         
         UICollectionView *collectionView = [[UICollectionView alloc] initWithFrame:CGRectZero
                                                               collectionViewLayout:layoutType % 2 == 1 ? [FCLineLayout new] : [FCComplexLineLayout new]];
-        collectionView.backgroundColor = [UIColor lightGrayColor];
+        collectionView.backgroundColor = UIColor.backgroundColor;
         [collectionView registerClass:[UICollectionViewCell class] forCellWithReuseIdentifier:@"UICollectionViewCell"];
         collectionView.delegate = self;
         collectionView.dataSource = self;
@@ -43,8 +43,8 @@
            
             make.left.mas_equalTo(15);
             make.right.mas_equalTo(-15);
-            make.top.mas_equalTo(30);
-            make.height.mas_equalTo(100);
+            make.centerY.equalTo(self.contentView);
+            make.height.mas_equalTo(200);
         }];
         collectionView;
     });
@@ -62,10 +62,15 @@
 
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath {
  
-    NSArray *array = @[[UIColor redColor], [UIColor blueColor], [UIColor grayColor]];
     UICollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"UICollectionViewCell" forIndexPath:indexPath];
-    cell.backgroundColor = array[indexPath.row % array.count];
+    cell.backgroundColor = UIColor.randomColor;
     return cell;
 }
+
+- (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath {
+    
+    [collectionView scrollToItemAtIndexPath:indexPath atScrollPosition:UICollectionViewScrollPositionCenteredHorizontally animated:YES];
+}
+
 
 @end

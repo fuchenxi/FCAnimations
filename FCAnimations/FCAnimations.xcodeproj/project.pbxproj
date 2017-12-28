@@ -27,6 +27,19 @@
 		19A519C41FF4813D003948A7 /* FCLineLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 19A519C31FF4813D003948A7 /* FCLineLayout.m */; };
 		19A519CA1FF48985003948A7 /* FCComplexLineLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 19A519C91FF48985003948A7 /* FCComplexLineLayout.m */; };
 		19A519CE1FF489F0003948A7 /* FCMath.m in Sources */ = {isa = PBXBuildFile; fileRef = 19A519CD1FF489F0003948A7 /* FCMath.m */; };
+		19A519D11FF49109003948A7 /* UIColor+Public.m in Sources */ = {isa = PBXBuildFile; fileRef = 19A519D01FF49109003948A7 /* UIColor+Public.m */; };
+		19A519D51FF493FC003948A7 /* FCInfiniteLoopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19A519D41FF493FC003948A7 /* FCInfiniteLoopViewController.m */; };
+		19A519DC1FF49492003948A7 /* FCInfiniteLoopViewBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 19A519DB1FF49492003948A7 /* FCInfiniteLoopViewBuilder.m */; };
+		19A519DF1FF49512003948A7 /* FCInfiniteLoopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 19A519DE1FF49512003948A7 /* FCInfiniteLoopView.m */; };
+		19A519E21FF4996E003948A7 /* FCInfiniteLoopViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 19A519E11FF4996E003948A7 /* FCInfiniteLoopViewCell.m */; };
+		19A519ED1FF4C7FC003948A7 /* FCInfiniteNodeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 19A519EC1FF4C7FC003948A7 /* FCInfiniteNodeView.m */; };
+		19A519F31FF4CBBD003948A7 /* UIView+AnimationProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 19A519F21FF4CBBD003948A7 /* UIView+AnimationProperty.m */; };
+		19A519FC1FF4CCF1003948A7 /* FCCircleNodeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 19A519F61FF4CCF1003948A7 /* FCCircleNodeView.m */; };
+		19A519FD1FF4CCF1003948A7 /* FCLoopViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 19A519F81FF4CCF1003948A7 /* FCLoopViewCell.m */; };
+		19A519FE1FF4CCF1003948A7 /* FCImageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 19A519FA1FF4CCF1003948A7 /* FCImageModel.m */; };
+		19A51A011FF4CD63003948A7 /* FCLoopViewTwoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 19A51A001FF4CD63003948A7 /* FCLoopViewTwoCell.m */; };
+		19A51A041FF4CD80003948A7 /* FCRectNodeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 19A51A031FF4CD80003948A7 /* FCRectNodeView.m */; };
+		19A51A071FF4CD94003948A7 /* FCImageTwoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 19A51A061FF4CD94003948A7 /* FCImageTwoModel.m */; };
 		19C5452F1FEA007E00890C50 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 19C5452E1FEA007E00890C50 /* AppDelegate.m */; };
 		19C545AD1FEA04C000890C50 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 19C545A51FEA04BF00890C50 /* main.m */; };
 		19C545AE1FEA04C000890C50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19C545A81FEA04BF00890C50 /* Assets.xcassets */; };
@@ -74,6 +87,34 @@
 		19A519C91FF48985003948A7 /* FCComplexLineLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCComplexLineLayout.m; sourceTree = "<group>"; };
 		19A519CC1FF489F0003948A7 /* FCMath.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCMath.h; sourceTree = "<group>"; };
 		19A519CD1FF489F0003948A7 /* FCMath.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCMath.m; sourceTree = "<group>"; };
+		19A519CF1FF49109003948A7 /* UIColor+Public.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+Public.h"; sourceTree = "<group>"; };
+		19A519D01FF49109003948A7 /* UIColor+Public.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Public.m"; sourceTree = "<group>"; };
+		19A519D31FF493FC003948A7 /* FCInfiniteLoopViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCInfiniteLoopViewController.h; sourceTree = "<group>"; };
+		19A519D41FF493FC003948A7 /* FCInfiniteLoopViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCInfiniteLoopViewController.m; sourceTree = "<group>"; };
+		19A519DA1FF49492003948A7 /* FCInfiniteLoopViewBuilder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCInfiniteLoopViewBuilder.h; sourceTree = "<group>"; };
+		19A519DB1FF49492003948A7 /* FCInfiniteLoopViewBuilder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCInfiniteLoopViewBuilder.m; sourceTree = "<group>"; };
+		19A519DD1FF49512003948A7 /* FCInfiniteLoopView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCInfiniteLoopView.h; sourceTree = "<group>"; };
+		19A519DE1FF49512003948A7 /* FCInfiniteLoopView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCInfiniteLoopView.m; sourceTree = "<group>"; };
+		19A519E01FF4996E003948A7 /* FCInfiniteLoopViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCInfiniteLoopViewCell.h; sourceTree = "<group>"; };
+		19A519E11FF4996E003948A7 /* FCInfiniteLoopViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCInfiniteLoopViewCell.m; sourceTree = "<group>"; };
+		19A519E31FF4998D003948A7 /* FCInfiniteLoopViewProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCInfiniteLoopViewProtocol.h; sourceTree = "<group>"; };
+		19A519E41FF499AF003948A7 /* FCInfiniteLoopCellClassProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCInfiniteLoopCellClassProtocol.h; sourceTree = "<group>"; };
+		19A519EB1FF4C7FC003948A7 /* FCInfiniteNodeView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCInfiniteNodeView.h; sourceTree = "<group>"; };
+		19A519EC1FF4C7FC003948A7 /* FCInfiniteNodeView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCInfiniteNodeView.m; sourceTree = "<group>"; };
+		19A519F11FF4CBBD003948A7 /* UIView+AnimationProperty.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+AnimationProperty.h"; sourceTree = "<group>"; };
+		19A519F21FF4CBBD003948A7 /* UIView+AnimationProperty.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+AnimationProperty.m"; sourceTree = "<group>"; };
+		19A519F51FF4CCF1003948A7 /* FCLoopViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FCLoopViewCell.h; sourceTree = "<group>"; };
+		19A519F61FF4CCF1003948A7 /* FCCircleNodeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FCCircleNodeView.m; sourceTree = "<group>"; };
+		19A519F71FF4CCF1003948A7 /* FCImageModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FCImageModel.h; sourceTree = "<group>"; };
+		19A519F81FF4CCF1003948A7 /* FCLoopViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FCLoopViewCell.m; sourceTree = "<group>"; };
+		19A519F91FF4CCF1003948A7 /* FCCircleNodeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FCCircleNodeView.h; sourceTree = "<group>"; };
+		19A519FA1FF4CCF1003948A7 /* FCImageModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FCImageModel.m; sourceTree = "<group>"; };
+		19A519FF1FF4CD63003948A7 /* FCLoopViewTwoCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCLoopViewTwoCell.h; sourceTree = "<group>"; };
+		19A51A001FF4CD63003948A7 /* FCLoopViewTwoCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCLoopViewTwoCell.m; sourceTree = "<group>"; };
+		19A51A021FF4CD80003948A7 /* FCRectNodeView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCRectNodeView.h; sourceTree = "<group>"; };
+		19A51A031FF4CD80003948A7 /* FCRectNodeView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCRectNodeView.m; sourceTree = "<group>"; };
+		19A51A051FF4CD94003948A7 /* FCImageTwoModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCImageTwoModel.h; sourceTree = "<group>"; };
+		19A51A061FF4CD94003948A7 /* FCImageTwoModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCImageTwoModel.m; sourceTree = "<group>"; };
 		19C5452A1FEA007E00890C50 /* FCAnimations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FCAnimations.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		19C5452D1FEA007E00890C50 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		19C5452E1FEA007E00890C50 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -141,6 +182,8 @@
 			children = (
 				19A5198D1FF375EA003948A7 /* UIView+Rect.h */,
 				19A5198E1FF375EA003948A7 /* UIView+Rect.m */,
+				19A519F11FF4CBBD003948A7 /* UIView+AnimationProperty.h */,
+				19A519F21FF4CBBD003948A7 /* UIView+AnimationProperty.m */,
 			);
 			path = "UIView+Category";
 			sourceTree = "<group>";
@@ -200,6 +243,84 @@
 				19A519CD1FF489F0003948A7 /* FCMath.m */,
 			);
 			path = Math;
+			sourceTree = "<group>";
+		};
+		19A519D21FF493EC003948A7 /* FCInfiniteLoopViewController */ = {
+			isa = PBXGroup;
+			children = (
+				19A519D31FF493FC003948A7 /* FCInfiniteLoopViewController.h */,
+				19A519D41FF493FC003948A7 /* FCInfiniteLoopViewController.m */,
+				19A519F41FF4CCF1003948A7 /* Type1 */,
+				19A519FB1FF4CCF1003948A7 /* Type2 */,
+			);
+			path = FCInfiniteLoopViewController;
+			sourceTree = "<group>";
+		};
+		19A519D61FF49479003948A7 /* InfiniteLoopView */ = {
+			isa = PBXGroup;
+			children = (
+				19A519D91FF49479003948A7 /* InfiniteLoopViewBuilder */,
+				19A519D71FF49479003948A7 /* InfiniteLoopView */,
+				19A519D81FF49479003948A7 /* InfiniteNodeView */,
+			);
+			path = InfiniteLoopView;
+			sourceTree = "<group>";
+		};
+		19A519D71FF49479003948A7 /* InfiniteLoopView */ = {
+			isa = PBXGroup;
+			children = (
+				19A519DD1FF49512003948A7 /* FCInfiniteLoopView.h */,
+				19A519DE1FF49512003948A7 /* FCInfiniteLoopView.m */,
+				19A519E01FF4996E003948A7 /* FCInfiniteLoopViewCell.h */,
+				19A519E11FF4996E003948A7 /* FCInfiniteLoopViewCell.m */,
+				19A519E31FF4998D003948A7 /* FCInfiniteLoopViewProtocol.h */,
+				19A519E41FF499AF003948A7 /* FCInfiniteLoopCellClassProtocol.h */,
+			);
+			path = InfiniteLoopView;
+			sourceTree = "<group>";
+		};
+		19A519D81FF49479003948A7 /* InfiniteNodeView */ = {
+			isa = PBXGroup;
+			children = (
+				19A519EB1FF4C7FC003948A7 /* FCInfiniteNodeView.h */,
+				19A519EC1FF4C7FC003948A7 /* FCInfiniteNodeView.m */,
+			);
+			path = InfiniteNodeView;
+			sourceTree = "<group>";
+		};
+		19A519D91FF49479003948A7 /* InfiniteLoopViewBuilder */ = {
+			isa = PBXGroup;
+			children = (
+				19A519DA1FF49492003948A7 /* FCInfiniteLoopViewBuilder.h */,
+				19A519DB1FF49492003948A7 /* FCInfiniteLoopViewBuilder.m */,
+			);
+			path = InfiniteLoopViewBuilder;
+			sourceTree = "<group>";
+		};
+		19A519F41FF4CCF1003948A7 /* Type1 */ = {
+			isa = PBXGroup;
+			children = (
+				19A519F51FF4CCF1003948A7 /* FCLoopViewCell.h */,
+				19A519F81FF4CCF1003948A7 /* FCLoopViewCell.m */,
+				19A519F91FF4CCF1003948A7 /* FCCircleNodeView.h */,
+				19A519F61FF4CCF1003948A7 /* FCCircleNodeView.m */,
+				19A519F71FF4CCF1003948A7 /* FCImageModel.h */,
+				19A519FA1FF4CCF1003948A7 /* FCImageModel.m */,
+			);
+			path = Type1;
+			sourceTree = "<group>";
+		};
+		19A519FB1FF4CCF1003948A7 /* Type2 */ = {
+			isa = PBXGroup;
+			children = (
+				19A519FF1FF4CD63003948A7 /* FCLoopViewTwoCell.h */,
+				19A51A001FF4CD63003948A7 /* FCLoopViewTwoCell.m */,
+				19A51A021FF4CD80003948A7 /* FCRectNodeView.h */,
+				19A51A031FF4CD80003948A7 /* FCRectNodeView.m */,
+				19A51A051FF4CD94003948A7 /* FCImageTwoModel.h */,
+				19A51A061FF4CD94003948A7 /* FCImageTwoModel.m */,
+			);
+			path = Type2;
 			sourceTree = "<group>";
 		};
 		19C545211FEA007E00890C50 = {
@@ -263,6 +384,7 @@
 		19C545951FEA047500890C50 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				19A519D21FF493EC003948A7 /* FCInfiniteLoopViewController */,
 				19A519A71FF37A92003948A7 /* FCLineLayoutViewController */,
 			);
 			path = Controllers;
@@ -286,6 +408,8 @@
 		19C5459D1FEA047500890C50 /* Disposable-Tools */ = {
 			isa = PBXGroup;
 			children = (
+				19A519CF1FF49109003948A7 /* UIColor+Public.h */,
+				19A519D01FF49109003948A7 /* UIColor+Public.m */,
 			);
 			path = "Disposable-Tools";
 			sourceTree = "<group>";
@@ -294,6 +418,7 @@
 			isa = PBXGroup;
 			children = (
 				19A5198B1FF374AF003948A7 /* Component.h */,
+				19A519D61FF49479003948A7 /* InfiniteLoopView */,
 				19A5198C1FF375D8003948A7 /* UIView+Category */,
 				19A519871FF37436003948A7 /* UIFont+Categories */,
 			);
@@ -493,14 +618,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19A519D11FF49109003948A7 /* UIColor+Public.m in Sources */,
 				19C545AD1FEA04C000890C50 /* main.m in Sources */,
 				19A519AB1FF37AEC003948A7 /* FCLineLayoutViewController.m in Sources */,
+				19A51A041FF4CD80003948A7 /* FCRectNodeView.m in Sources */,
+				19A51A011FF4CD63003948A7 /* FCLoopViewTwoCell.m in Sources */,
+				19A519DF1FF49512003948A7 /* FCInfiniteLoopView.m in Sources */,
+				19A519E21FF4996E003948A7 /* FCInfiniteLoopViewCell.m in Sources */,
 				19C5452F1FEA007E00890C50 /* AppDelegate.m in Sources */,
+				19A519FC1FF4CCF1003948A7 /* FCCircleNodeView.m in Sources */,
+				19A519FD1FF4CCF1003948A7 /* FCLoopViewCell.m in Sources */,
 				19A519831FF36E96003948A7 /* FCAnimationListNavigationController.m in Sources */,
 				19A519A01FF376BD003948A7 /* FCShowLoadingView.m in Sources */,
 				19A519691FF33D72003948A7 /* FCCustomCell.m in Sources */,
 				19A519791FF340EB003948A7 /* FCAnimationListController.m in Sources */,
 				19A519CA1FF48985003948A7 /* FCComplexLineLayout.m in Sources */,
+				19A51A071FF4CD94003948A7 /* FCImageTwoModel.m in Sources */,
+				19A519D51FF493FC003948A7 /* FCInfiniteLoopViewController.m in Sources */,
+				19A519DC1FF49492003948A7 /* FCInfiniteLoopViewBuilder.m in Sources */,
 				19A5199D1FF376BD003948A7 /* FCBaseCustomViewController.m in Sources */,
 				19A519651FF33BD6003948A7 /* FCCellDataAdapter.m in Sources */,
 				19A519A11FF376BD003948A7 /* FCBaseCustomNavigationController.m in Sources */,
@@ -513,6 +648,9 @@
 				19A519861FF37064003948A7 /* FCAnimationListCell.m in Sources */,
 				19A5199E1FF376BD003948A7 /* FCCustomViewController.m in Sources */,
 				19A5197C1FF36C7E003948A7 /* FCItem.m in Sources */,
+				19A519F31FF4CBBD003948A7 /* UIView+AnimationProperty.m in Sources */,
+				19A519ED1FF4C7FC003948A7 /* FCInfiniteNodeView.m in Sources */,
+				19A519FE1FF4CCF1003948A7 /* FCImageModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

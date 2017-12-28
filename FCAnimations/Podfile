@@ -10,6 +10,7 @@ target 'FCAnimations' do
     pod 'SDWebImage'
     pod 'Masonry'
     pod 'MJRefresh'
+    pod 'YYCategories'
 #    pod 'FMDB'
 #    pod 'MBProgressHUD'
 #   pod 'DZNEmptyDataSet'
