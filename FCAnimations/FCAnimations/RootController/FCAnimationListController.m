@@ -95,7 +95,8 @@
 - (void)configureDataSource {
     
     NSArray *array = @[[FCItem itemWithObject:[FCLineLayoutViewController  class]  name:@"LineLayout"],
-                       [FCItem itemWithObject:[FCInfiniteLoopViewController  class]  name:@"无限轮播图"]];
+                       [FCItem itemWithObject:[FCInfiniteLoopViewController  class]  name:@"无限轮播图"],
+                       [FCItem itemWithObject:[FCDynamicSwitchingLayoutController  class]  name:@"动态切换Layout"]];
     
     self.items = [NSMutableArray array];
     [array enumerateObjectsUsingBlock:^(FCItem *item, NSUInteger idx, BOOL *stop) {

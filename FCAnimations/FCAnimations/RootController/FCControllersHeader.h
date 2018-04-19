@@ -11,5 +11,6 @@
 
 #import "FCInfiniteLoopViewController.h"
 #import "FCLineLayoutViewController.h"
+#import "FCDynamicSwitchingLayoutController.h"
 
 #endif /* FCControllersHeader_h */

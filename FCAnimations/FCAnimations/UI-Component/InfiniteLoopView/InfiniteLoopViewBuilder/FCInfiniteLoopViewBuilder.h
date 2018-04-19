@@ -78,6 +78,8 @@ typedef NS_ENUM(NSUInteger, ENodeViewShowPosition) {
  */
 @property (nonatomic, strong) FCInfiniteNodeView  *nodeViewTemplate;
 
+@property (nonatomic, assign, getter = isShowNodeView) BOOL showNodeView;
+
 /**
  *  NodeStateViews's edgeInsets.
  */

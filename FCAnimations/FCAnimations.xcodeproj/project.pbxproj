@@ -40,6 +40,13 @@
 		19A51A011FF4CD63003948A7 /* FCLoopViewTwoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 19A51A001FF4CD63003948A7 /* FCLoopViewTwoCell.m */; };
 		19A51A041FF4CD80003948A7 /* FCRectNodeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 19A51A031FF4CD80003948A7 /* FCRectNodeView.m */; };
 		19A51A071FF4CD94003948A7 /* FCImageTwoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 19A51A061FF4CD94003948A7 /* FCImageTwoModel.m */; };
+		19A51A0B1FF5DA3B003948A7 /* FCDynamicSwitchingLayoutController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19A51A0A1FF5DA3B003948A7 /* FCDynamicSwitchingLayoutController.m */; };
+		19A51A0D1FF5DA59003948A7 /* duitang.json in Resources */ = {isa = PBXBuildFile; fileRef = 19A51A0C1FF5DA59003948A7 /* duitang.json */; };
+		19A51A101FF5DA62003948A7 /* FCDuiTangModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 19A51A0F1FF5DA62003948A7 /* FCDuiTangModel.m */; };
+		19A51A141FF5DAEA003948A7 /* FCFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 19A51A131FF5DAEA003948A7 /* FCFileManager.m */; };
+		19A51A181FF5DBF1003948A7 /* FCCustomCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 19A51A171FF5DBF1003948A7 /* FCCustomCollectionCell.m */; };
+		19A51A1B1FF5DE46003948A7 /* FCDynamicSwitchingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 19A51A1A1FF5DE46003948A7 /* FCDynamicSwitchingCell.m */; };
+		19A51A1F1FF5DFB6003948A7 /* NSData+JsonData.m in Sources */ = {isa = PBXBuildFile; fileRef = 19A51A1E1FF5DFB6003948A7 /* NSData+JsonData.m */; };
 		19C5452F1FEA007E00890C50 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 19C5452E1FEA007E00890C50 /* AppDelegate.m */; };
 		19C545AD1FEA04C000890C50 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 19C545A51FEA04BF00890C50 /* main.m */; };
 		19C545AE1FEA04C000890C50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19C545A81FEA04BF00890C50 /* Assets.xcassets */; };
@@ -115,6 +122,20 @@
 		19A51A031FF4CD80003948A7 /* FCRectNodeView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCRectNodeView.m; sourceTree = "<group>"; };
 		19A51A051FF4CD94003948A7 /* FCImageTwoModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCImageTwoModel.h; sourceTree = "<group>"; };
 		19A51A061FF4CD94003948A7 /* FCImageTwoModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCImageTwoModel.m; sourceTree = "<group>"; };
+		19A51A091FF5DA3B003948A7 /* FCDynamicSwitchingLayoutController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCDynamicSwitchingLayoutController.h; sourceTree = "<group>"; };
+		19A51A0A1FF5DA3B003948A7 /* FCDynamicSwitchingLayoutController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCDynamicSwitchingLayoutController.m; sourceTree = "<group>"; };
+		19A51A0C1FF5DA59003948A7 /* duitang.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = duitang.json; sourceTree = "<group>"; };
+		19A51A0E1FF5DA62003948A7 /* FCDuiTangModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCDuiTangModel.h; sourceTree = "<group>"; };
+		19A51A0F1FF5DA62003948A7 /* FCDuiTangModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCDuiTangModel.m; sourceTree = "<group>"; };
+		19A51A121FF5DAEA003948A7 /* FCFileManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCFileManager.h; sourceTree = "<group>"; };
+		19A51A131FF5DAEA003948A7 /* FCFileManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCFileManager.m; sourceTree = "<group>"; };
+		19A51A151FF5DB1C003948A7 /* FCGeneralToolHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCGeneralToolHeader.h; sourceTree = "<group>"; };
+		19A51A161FF5DBF1003948A7 /* FCCustomCollectionCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCCustomCollectionCell.h; sourceTree = "<group>"; };
+		19A51A171FF5DBF1003948A7 /* FCCustomCollectionCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCCustomCollectionCell.m; sourceTree = "<group>"; };
+		19A51A191FF5DE46003948A7 /* FCDynamicSwitchingCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCDynamicSwitchingCell.h; sourceTree = "<group>"; };
+		19A51A1A1FF5DE46003948A7 /* FCDynamicSwitchingCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCDynamicSwitchingCell.m; sourceTree = "<group>"; };
+		19A51A1D1FF5DFB6003948A7 /* NSData+JsonData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSData+JsonData.h"; sourceTree = "<group>"; };
+		19A51A1E1FF5DFB6003948A7 /* NSData+JsonData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSData+JsonData.m"; sourceTree = "<group>"; };
 		19C5452A1FEA007E00890C50 /* FCAnimations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FCAnimations.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		19C5452D1FEA007E00890C50 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		19C5452E1FEA007E00890C50 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -164,6 +185,8 @@
 			children = (
 				19A519671FF33D72003948A7 /* FCCustomCell.h */,
 				19A519681FF33D72003948A7 /* FCCustomCell.m */,
+				19A51A161FF5DBF1003948A7 /* FCCustomCollectionCell.h */,
+				19A51A171FF5DBF1003948A7 /* FCCustomCollectionCell.m */,
 			);
 			path = CustomCell;
 			sourceTree = "<group>";
@@ -323,6 +346,38 @@
 			path = Type2;
 			sourceTree = "<group>";
 		};
+		19A51A081FF5DA30003948A7 /* FCDynamicSwitchingLayoutController */ = {
+			isa = PBXGroup;
+			children = (
+				19A51A091FF5DA3B003948A7 /* FCDynamicSwitchingLayoutController.h */,
+				19A51A0A1FF5DA3B003948A7 /* FCDynamicSwitchingLayoutController.m */,
+				19A51A191FF5DE46003948A7 /* FCDynamicSwitchingCell.h */,
+				19A51A1A1FF5DE46003948A7 /* FCDynamicSwitchingCell.m */,
+				19A51A0C1FF5DA59003948A7 /* duitang.json */,
+				19A51A0E1FF5DA62003948A7 /* FCDuiTangModel.h */,
+				19A51A0F1FF5DA62003948A7 /* FCDuiTangModel.m */,
+			);
+			path = FCDynamicSwitchingLayoutController;
+			sourceTree = "<group>";
+		};
+		19A51A111FF5DAE3003948A7 /* FCFileManager */ = {
+			isa = PBXGroup;
+			children = (
+				19A51A121FF5DAEA003948A7 /* FCFileManager.h */,
+				19A51A131FF5DAEA003948A7 /* FCFileManager.m */,
+			);
+			path = FCFileManager;
+			sourceTree = "<group>";
+		};
+		19A51A1C1FF5DFA1003948A7 /* FCJsonKit */ = {
+			isa = PBXGroup;
+			children = (
+				19A51A1D1FF5DFB6003948A7 /* NSData+JsonData.h */,
+				19A51A1E1FF5DFB6003948A7 /* NSData+JsonData.m */,
+			);
+			path = FCJsonKit;
+			sourceTree = "<group>";
+		};
 		19C545211FEA007E00890C50 = {
 			isa = PBXGroup;
 			children = (
@@ -360,6 +415,9 @@
 		19C545931FEA047500890C50 /* General-Tools */ = {
 			isa = PBXGroup;
 			children = (
+				19A51A151FF5DB1C003948A7 /* FCGeneralToolHeader.h */,
+				19A51A1C1FF5DFA1003948A7 /* FCJsonKit */,
+				19A51A111FF5DAE3003948A7 /* FCFileManager */,
 				19A519CB1FF489E6003948A7 /* Math */,
 			);
 			path = "General-Tools";
@@ -384,6 +442,7 @@
 		19C545951FEA047500890C50 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				19A51A081FF5DA30003948A7 /* FCDynamicSwitchingLayoutController */,
 				19A519D21FF493EC003948A7 /* FCInfiniteLoopViewController */,
 				19A519A71FF37A92003948A7 /* FCLineLayoutViewController */,
 			);
@@ -551,6 +610,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19A51A0D1FF5DA59003948A7 /* duitang.json in Resources */,
 				19A519A61FF377DA003948A7 /* Info.plist in Resources */,
 				19C545B01FEA04C000890C50 /* LaunchScreen.storyboard in Resources */,
 				19C545AE1FEA04C000890C50 /* Assets.xcassets in Resources */,
@@ -621,15 +681,20 @@
 				19A519D11FF49109003948A7 /* UIColor+Public.m in Sources */,
 				19C545AD1FEA04C000890C50 /* main.m in Sources */,
 				19A519AB1FF37AEC003948A7 /* FCLineLayoutViewController.m in Sources */,
+				19A51A181FF5DBF1003948A7 /* FCCustomCollectionCell.m in Sources */,
+				19A51A0B1FF5DA3B003948A7 /* FCDynamicSwitchingLayoutController.m in Sources */,
 				19A51A041FF4CD80003948A7 /* FCRectNodeView.m in Sources */,
 				19A51A011FF4CD63003948A7 /* FCLoopViewTwoCell.m in Sources */,
 				19A519DF1FF49512003948A7 /* FCInfiniteLoopView.m in Sources */,
 				19A519E21FF4996E003948A7 /* FCInfiniteLoopViewCell.m in Sources */,
 				19C5452F1FEA007E00890C50 /* AppDelegate.m in Sources */,
+				19A51A1F1FF5DFB6003948A7 /* NSData+JsonData.m in Sources */,
 				19A519FC1FF4CCF1003948A7 /* FCCircleNodeView.m in Sources */,
+				19A51A141FF5DAEA003948A7 /* FCFileManager.m in Sources */,
 				19A519FD1FF4CCF1003948A7 /* FCLoopViewCell.m in Sources */,
 				19A519831FF36E96003948A7 /* FCAnimationListNavigationController.m in Sources */,
 				19A519A01FF376BD003948A7 /* FCShowLoadingView.m in Sources */,
+				19A51A1B1FF5DE46003948A7 /* FCDynamicSwitchingCell.m in Sources */,
 				19A519691FF33D72003948A7 /* FCCustomCell.m in Sources */,
 				19A519791FF340EB003948A7 /* FCAnimationListController.m in Sources */,
 				19A519CA1FF48985003948A7 /* FCComplexLineLayout.m in Sources */,
@@ -649,6 +714,7 @@
 				19A5199E1FF376BD003948A7 /* FCCustomViewController.m in Sources */,
 				19A5197C1FF36C7E003948A7 /* FCItem.m in Sources */,
 				19A519F31FF4CBBD003948A7 /* UIView+AnimationProperty.m in Sources */,
+				19A51A101FF5DA62003948A7 /* FCDuiTangModel.m in Sources */,
 				19A519ED1FF4C7FC003948A7 /* FCInfiniteNodeView.m in Sources */,
 				19A519FE1FF4CCF1003948A7 /* FCImageModel.m in Sources */,
 			);

@@ -237,5 +237,16 @@
                                             animated:NO];
     }
 }
+- (void)dealloc {
+    
+    
+    NSLog(@"%@ dealloc", [self class]);
+}
+
+- (void)removeFromSuperview {
+    
+    [super removeFromSuperview];
+    [self invalidateTimer];
+}
 
 @end

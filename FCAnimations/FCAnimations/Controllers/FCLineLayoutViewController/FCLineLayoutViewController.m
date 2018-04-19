@@ -10,7 +10,6 @@
 #import "FCCellDataAdapter.h"
 #import "FCLineLayout.h"
 #import "FCComplexLineLayout.h"
-#import <Masonry.h>
 
 @interface FCLineLayoutViewController () <UICollectionViewDelegate, UICollectionViewDataSource>
 
@@ -34,6 +33,7 @@
         UICollectionView *collectionView = [[UICollectionView alloc] initWithFrame:CGRectZero
                                                               collectionViewLayout:layoutType % 2 == 1 ? [FCLineLayout new] : [FCComplexLineLayout new]];
         collectionView.backgroundColor = UIColor.backgroundColor;
+        
         [collectionView registerClass:[UICollectionViewCell class] forCellWithReuseIdentifier:@"UICollectionViewCell"];
         collectionView.delegate = self;
         collectionView.dataSource = self;

@@ -16,6 +16,11 @@
 
 @implementation FCLoopViewCell
 
+- (void)setupCollectionViewCell {
+    
+    self.layer.masksToBounds = YES;
+}
+
 - (void)buildSubView {
     
     self.imageView = ({
@@ -30,6 +35,15 @@
 - (void)loadContent {
     
     [self.imageView sd_setImageWithURL:[NSURL URLWithString:[self.dataModel imageUrlString]] placeholderImage:[UIImage imageNamed:@"详情默认图"]];
+}
+
+- (void)contentOffset:(CGPoint)offset {
+
+    if (offset.x >= 0.f) {
+        self.imageView.x = offset.x * 0.5f;
+    } else {
+        self.imageView.x = 0;
+    }
 }
 
 @end

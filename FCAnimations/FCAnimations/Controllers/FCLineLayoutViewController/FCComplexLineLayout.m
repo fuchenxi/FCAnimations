@@ -7,7 +7,6 @@
 //
 
 #import "FCComplexLineLayout.h"
-#import "FCMath.h"
 
 @interface FCComplexLineLayout (){
     

@@ -15,6 +15,10 @@
 #import "UIColor+Public.h"
 
 
+#import "FCCustomCell.h"
+#import "FCCustomCollectionCell.h"
+#import "FCCellDataAdapter.h"
+
 #import <YYCategories.h>
 #import <Masonry.h>
 #import <UIImageView+WebCache.h>
